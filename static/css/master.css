@@ -1,0 +1,97 @@
+/*Fonts: Rubik (sans-serif), Lora (serif)*/
+@import url('https://fonts.googleapis.com/css?family=Lora|Rubik&display=swap');
+
+/* Whole Webpage */
+body {
+  padding: 10px;
+  background-color: #E6F7FF;
+}
+
+/* Webpage Title */
+#title {
+  font-family: 'Lora', serif;
+  color: #839FC9;
+  text-decoration: none;
+  display: inline;
+}
+#pgtitle {
+  font-family: 'Lora', serif;
+  color: #7DA1B3;
+  text-align: center;
+}
+
+/* Navigation Styling */
+nav {
+  position: sticky;
+  display: block;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #CCEEFF;
+}
+/* Navigation Links Styling */
+nav ul li {
+  display: inline;
+  margin: 0;
+}
+nav ul li a {
+  font-family: 'Rubik', sans-serif;
+  background-color: #CCEEFF;
+  padding: 10px;
+  text-decoration: none;
+  color: #7DA1B3;
+}
+nav ul li a:hover {
+  background-color: #7DA1B3;
+}
+.active {
+  background-color: lightyellow;
+}
+/* Actual Content */
+.main {
+  background-color: rgba(255, 255, 255, .3);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+#prioritize {
+  border-radius: 10px;
+}
+footer {
+  background-color: rgba(255, 255, 255, .3);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+/* Form Styling */
+form button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  font-family: 'Rubik', sans-serif;
+  color: #7DA1B3;
+}
+form input[type=text] {
+  font-family: 'Rubik', sans-serif;
+  color: #7DA1B3;
+  background-color: rgba(255, 255, 255, 0);
+}
+#thanks {
+  display: none;
+}
+/* Text Styling */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+  color: #7DA1B3;
+}
+
+p, i, b, u, li, a {
+  font-family: 'Rubik', sans-serif;
+  color: #7DA1B3;
+}
+/* Footer Styling */
+footer a, footer p, footer i, footer b, footer {
+  font-size: 12px;
+}
