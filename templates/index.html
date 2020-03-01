@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../static/css/master.css">
+    <title>conscious</title>
+    <script type="text/javascript">
+    function helloThere(){
+      var helloFriend;
+      helloFriend = getElementById("thanks");
+      helloFriend.style.display = "inline";
+    }
+    </script>
+    <script>
+      var quoteArray = ["“You’re worth it!” - Unknown", "“If we learn to open our hearts, anyone… can be our teacher.” — Pema Chodron","“The Way to Get Started Is To Quit Talking And Begin Doing.” – Walt Disney", "“Don’t Let Yesterday Take Up Too Much Of Today.” – Will Rogers","“You Learn More From Failure Than From Success. Don’t Let It Stop You. Failure Builds Character.” – Unknown","“It’s Not Whether You Get Knocked Down, It’s Whether You Get Up.” – Vince Lombardi","“We May Encounter Many Defeats But We Must Not Be Defeated.” – Maya Angelou","“Imagine Your Life Is Perfect In Every Respect; What Would It Look Like?” – Brian Tracy","”You matter” - Unknown","”Just keep swimming, just keep swimming” - Finding Nemo (Dory)","”Keep calm and believe you can do it” - Unknown", "Keep calm and carry on” - Unknown","“Look at the sparrows; they do not know what they will do in the next moment. Let us literally live from moment to moment.” – Mahatma Gandhi",  "“Caring for myself is not self-indulgence, it is self-preservation, and that is an act of political warfare.” -Audre Lord", "“Be you, love you. All ways, always.” - Alexandra Elle"];
+      var text = quoteArray[Math.floor(Math.random() * quoteArray.length)];
+    </script>
+    <link rel="shortcut icon" href="../static/cloudicon.png"/>
+  </head>
+  <body>
+    <header>
+      <h1><img src="../static/cloudicon.png" width=50px height=50px/><a href="/" id="title">conscious</a></h1>
+      <nav>
+          <ul>
+            <li><a href="/anxiety">Anxiety</a></li>
+            <li><a href="/depression">Depression</a></li>
+            <li><a href="/eatingdisorder">Eating Disorders</a></li>
+            <li><a href="/resources">Resources</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+      </nav>
+    </header>
+    <div id="page">
+      <h1 id="pgtitle">How are you?</h1>
+      <div class="main">
+        <p>We hope you're feeling great, but we understand someone cannot always be happy. Sometimes, being okay is more than enough. Thanks for joining us here on <i>conscious</i>. We aim to provide information on mental health, because we believe people should be more aware (or "conscious") so the world can move forward from this mental health stigma. If you're struggling, we are so proud and thrilled that you are willing to take a step in reaching out or learning more. Remember that health is a triangle and all sides must be balanced: physical, social, and emotional. We hope you will find what you're looking for.</p>
+        <center><img id="prioritize" src="../static/prioritize.png" width=40%/></center>
+        <div id="thanks"><p>Thanks</p></div>
+      </div>
+      <center><p><script>document.write(text);</script></p></center>
+    </div>
+    <footer>
+      <h3>IMPORTANT DISCLAIMER</h3>
+      <p>This web application was designed without consultation of medical professionals. By using this site, you agree to the <a href="/about#disclaimer">full disclaimer.</a></p>
+      <p>&copy; 2020 conscious.</p>
+    </footer>
+  </body>
+</html>
